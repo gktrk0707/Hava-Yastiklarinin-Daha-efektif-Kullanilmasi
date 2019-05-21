@@ -36,12 +36,7 @@ spi.open(spi_kanal,spi_CS_port)
 ser=serial.Serial('/dev/ttyUSB0',9600)
 
 
-def kanal_oku(start,stop,kanal):
-    spi.max_speed_hz=1000000
-    kanal_okuma=[start,((8+kanal)<<4),stop]
-    adc=spi.xfer2(kanal_okuma)
-    data=((adc[1]&3)<<8)+adc[2]
-    return data
+
 
 
 def kemer():
