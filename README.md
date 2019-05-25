@@ -1,5 +1,11 @@
 # Arabalardaki Hava Yastığı Sisteminin Daha Efektif Bir Biçimde Kullanılması
 
+Kodların açıklanması ve çalışma videosu : https://www.youtube.com/watch?v=0QfX2-HH7Ew&feature=youtu.be
+
+Arduino-Bilgisayar arası UART
+Arduino-Raspberry pi arası UART
+Raspberry pi-MCP3008 ADC çipi arası SPİ haberleşmesi kullanılmıştır.
+
 Ardunino kodları ECU dosyasının içinde bulunmaktadır.
 
 RaspberryPi.py dosyası adı gibi Raspberry Pi cihazında çalıştırılacaktır.
